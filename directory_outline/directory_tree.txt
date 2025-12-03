@@ -1,0 +1,106 @@
+$GWAS_DIR
+  mash_weights.txt
+  nontrivial_weight.pdf
+  noeffect_weight.txt
+  noeffect_weight_same.txt
+  simulation_matrix_k_5k.RData
+  simulation_matrix_k_10k.RData
+  simulation_matrix_k_15k.RData
+  simulation_matrix_k_20k.RData
+  matrice_names.txt
+  pgs_20.txt
+  pgs_20_all.txt
+  PGS_20_plot.pdf
+
+  [phenotype code]
+    male_all.[phenotype code].glm.linear
+    female_all.[phenotype code].glm.linear
+    both_sex_all.[phenotype code].glm.linear
+    [phenotype code]_miami.pdf 
+
+    annotation
+        [sex]_[phenotype code].clumped
+        [sex]_[phenotype code].clumped.ids
+        [sex]_[phenotype code]_annotation.txt
+    mash
+        [phenotype code]_mash.RData
+        [phenotype code]_mixprop_100_all.txt
+        [phenotype code]_mash_100g.RData
+        [phenotype code]_mash_pm.txt
+        [phenotype code]_mash_psd.txt
+        [phenotype code]_mash_lfsr.txt
+        [phenotype code]_mash_weights.txt
+        [phenotype code]_mash_large.pdf
+        [phenotype code]_mash_small.pdf
+    PGS_1
+        [phenotype code]_mash_pgs.RData
+        [phenotype code]_mash_100g_pgs.RData
+        [phenotype code]_mash_pm.txt
+        [phenotype code]_mash_psd.txt
+        [phenotype code]_mash_lfsr.txt
+        [phenotype code]_mash_weights.txt
+        [sex]_pseudoP_pgs.[phenotype code].txt
+        [sex]_[pgs model].[phenotype code].clumped.snpid
+        [sex]_[pgs model].[phenotype code].snp_pvalue
+        [phenotype code]_PGS20.txt    # r2 results for all 20 folds
+    PGS_...
+    PGS_20
+
+$QC_DIR
+    maf_sample_20k.txt
+    ukb_imp_chr(1-22)_v3_11   #pfiles
+    ukb_imp_all_v3_11   #pfiles
+
+$PHENO_DIR
+    pheno_[phenotype code].txt 
+    QC_ids.txt
+    sex_ids.txt
+    pheno_names.txt
+    pheno_meanvar.txt
+    pheno_var_bootstrap.txt
+    FIG4a_phenovar_phenomean.pdf
+    FIG4b_phenovar_amplification.pdf
+
+$ENSEMBL
+  # ensembl software
+  
+$ENSEMBL_CACHE
+  # human genome assembly GRCh37 cache
+
+$LDSC_DIR
+  # ldsc software
+
+$LDSC_FILE
+  ldsc_results.txt
+  relative_h2.txt
+  FIG1.r2_by_h2.pdf
+  # ldsc files for each phenotype
+  [phenotype code]
+    [phenotype code]_[sex].sumstats.gz    # reformatted summary statistics
+    [phenotype code]_[sex]_h2.log         # heritability
+    [phenotype code]_male_female.log      # genetic correlation
+
+$LD_SCORE
+  eur_w_ld_chr
+  w_hm3.snplist
+
+$LD_1000G
+  all_phase3.bed
+  all_phase3.bim
+  all_phase3.fam
+  eur_ids.txt
+
+$SEL_DIR
+  nfe_fst_plot_testosterone.1e-05.RData 
+  nfe_fst_plot_protein_total.1e-05.RData 
+  asj_zscore_plot.1e-05.all.Rdata
+  nfe_zscore_plot.1e-05.all.Rdata
+  fin_zscore_plot.1e-05.all.Rdata
+  FIG7C.selection.pdf
+  FIG7D.selection.pdf
+
+$SIM_COV
+  # simulation covariance RData and text files
+  mash_0_all.txt
+  mash_4221_all.txt
+  mash_1000_all.txt

@@ -1,0 +1,33 @@
+# this file contains the phenotype codes and the associated UK Biobank field ID. The covariates field IDs are as follows:
+# birth year: 34
+# genetic sex: 22001
+# First 10 PCs: 22009.1-22009.10
+
+FieldID	Code
+23479	albumin
+23125	arm_fatfree_mass_L
+23121	arm_fatfree_mass_R
+21001	bmi
+30680	calcium
+30700	creatinine
+4079	diastolicBP_auto
+30210	eosinophil_perc
+20151	FVC_best
+30750	HbA1c
+50	height
+49	hip_circ
+30770	IGF1
+30180	lymphocyte_perc
+102	pulse_rate
+30010	RBC_count
+30830	SHBG
+4080	systolicBP_auto
+30850	testosterone
+30860	protein_total
+30880	urate
+30670	urea
+48	waist_circ
+	waist_to_hip
+	wth_bmi_adj
+21002	weight
+23100	whole_body_fat_mass
